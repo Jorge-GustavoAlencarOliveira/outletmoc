@@ -1,0 +1,39 @@
+.navbar{
+  position: relative;
+}
+.dropdown-item {
+  border-bottom: 1px solid silver !important;
+}
+
+@media (max-width: 991.98px){
+  
+  .navbar-collapse{
+    position: absolute;
+    z-index: 2000;
+    top: 0px;
+    right: 0px;
+    background-color: darkgrey;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 100vh;
+    padding-left: 16px;     
+  }
+  .dropdown-menu{
+    position: absolute !important;   
+    padding-bottom: 100vh !important;
+    min-width:500px !important;
+    border-radius: 0px !important;
+  }
+  .dropdown-menu[data-bs-popper] {
+    left: -17px !important;
+  }
+  
+  .dropdown-toggle{
+    position: relative !important;
+  }
+  .btn-close{
+    position: absolute;
+    top: -15px;
+    right: -95px;
+  }
+}

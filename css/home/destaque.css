@@ -1,0 +1,89 @@
+#carousel{
+  display: flex;
+  flex-direction: column;
+}
+.carousel-item img{
+  object-fit: cover;
+}
+.carousel-control-prev{
+  justify-content: start !important;
+}
+.carousel-control-prev-icon{
+  margin-left: 15px;
+}
+.carousel-control-next{
+  justify-content: end !important;
+}
+.carousel-control-next-icon{
+  margin-right: 15px;
+}
+.carousel-indicators {
+  position: relative !important;
+  gap: 3px;
+  height: 30px !important;
+  margin-top: 10px !important;
+
+}
+.carousel-indicators [data-bs-target] {
+  opacity: 1 !important;
+  background-color: gray !important;
+  
+  
+}
+.carousel-indicators button{
+  border-radius: 50%;  
+  width: 10px !important;
+  height: 10px !important;
+  /* background-color: gray !important; */
+}
+
+.carousel-indicators .active {
+  background-color: black !important;
+}
+.destaque-titulo h1{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.destaque-titulo h1::before{
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  top: 24px;
+  left: 0px;
+
+}
+.destaque-titulo h1::after{
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  top: 24px;
+  right: 0px;
+}
+.card img{
+  min-height: 444.94px;
+}
+@media (max-width:991.98px){
+   .carousel-control-next-icon{
+    width: 1rem !important;
+    margin-right: 5px !important;
+ 
+   }
+  .carousel-control-prev-icon{
+    width: 1rem !important;
+    margin-left: 5px !important;
+  }
+  .carousel-indicators button{
+    margin: 0px !important;
+    width: 8px !important;
+    height: 8px !important;
+  }
+  .carousel-indicators {
+    margin-top: 0px !important;
+  
+  } 
+}
