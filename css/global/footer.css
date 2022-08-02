@@ -7,3 +7,9 @@
   right: 50px;
 }
 
+@media (max-width:576.98px){
+  .whatsapp-icon{
+    bottom: 25px;
+    right: 25px;
+  }
+}

@@ -21,11 +21,11 @@
   .dropdown-menu{
     position: absolute !important;   
     padding-bottom: 100vh !important;
-    min-width:500px !important;
+    min-width: 210px !important;
     border-radius: 0px !important;
   }
   .dropdown-menu[data-bs-popper] {
-    left: -17px !important;
+    left: -16px !important;
   }
   
   .dropdown-toggle{
