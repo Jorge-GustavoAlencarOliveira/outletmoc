@@ -8,6 +8,13 @@
   right: 50px;
 }
 
+.contato ul{
+  margin-bottom: 32px !important;
+}
+.footer-redes{
+  gap: 20px;
+}
+
 @media (max-width:576.98px){
   .whatsapp-icon{
     bottom: 25px;

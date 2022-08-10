@@ -14,7 +14,7 @@
   <header class="navbar navbar-expand-md py-0">
     <div class="container-fluid header">
       <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
-      <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div id="btn-hamburguer" class="d-md-none">
         <img src="./img/icons8-cardápio-48.svg" alt="">
       </div>
       <form class="d-md-block d-none busca col-md-6 col-lg-4" action="index.html" method="get">
@@ -22,10 +22,9 @@
         <input type="text" name="post_type" value="product" class="hidden">
         <input class="btn-busca" type="submit" value="Buscar">
       </form>
-      <div class="d-md-none" id="navbarNav">
+      <div class="d-none d-md-none" id="navbarNav">
         <ul class="navbar-nav">
-          <div class="d-md-none btn-fechar" aria-label="Close"><img src="./img/icons8-excluir.svg" alt="botão fechar" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav">
+          <div class="d-md-none btn-fechar" aria-label="Close"><img src="./img/icons8-excluir.svg" alt="botão fechar">
           </div>
           <ul>
             <li class="nav-item"><a class="nav-link" href="#">Camisas</a></li>
@@ -47,7 +46,7 @@
       <li class="nav-menu-item"><a href="">Bermudas</a></li>
       <li class="nav-menu-item"><a href="">Bonés</a></li>
       <li class="nav-menu-item"><a href="">Camisetas</a></li>
-      <li class="nav-menu-item"><a href="">Calçados</a></li>
+      <li class="nav-menu-item"><a href="">Calçados</a></li>     
     </ul>
   </nav>
   <nav id='mobile' class="container-fluid d-block d-md-none ">
@@ -61,7 +60,7 @@
     </ul>
   </nav>
 
-  <section id="carousel" class="container-fluid mt-4 mt-md-0">
+  <section id="carousel" class="container-fluid mt-2 mt-md-0">
     <div class='row'>
       <div id="carouselExampleIndicators" class="carousel slide col-12">
         <div class="carousel-inner">
@@ -89,15 +88,14 @@
   </section>
   <main class="container-fluid">
     <div class="destaque-titulo mb-md-2 mb-lg-4">
-      <h1>Destaques</h1>
+      <h1>Lançamentos</h1>
     </div>
-
     <div class="row">
-      <div class="col-lg-3 col-6 py-3 ">
+      <div class="col-lg-3 col-6 py-3">
         <div class="card">
           <img src="./img/5140a25a-b49d-4d58-b333-ed8e0442cf66.jpg" class="card-img-top" width="100px" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text text-center">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -105,7 +103,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.54.08 (2).jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -113,7 +111,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.54.08.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -121,7 +119,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.54.08 (1).jpeg" class="card-img-top" width="100px" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -129,7 +127,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.55.00 (1).jpeg" class="card-img-top" width="100px" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -137,7 +135,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.55.00 (3).jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -145,7 +143,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.55.00 (3).jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -153,7 +151,7 @@
         <div class="card">
           <img src="./img/WhatsApp Image 2022-08-01 at 20.55.00.jpeg" class="card-img-top" width="100px" alt="...">
           <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h3 class="card-text">Camisa Itals Flame Rosa</h3>
           </div>
         </div>
       </div>
@@ -175,7 +173,7 @@
             <li><img class="me-2" src="./img/amex@2x.png" alt="" width="50"></li>
           </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 contato">
           <h5 class='mb-4'>CONTATO</h5>
           <ul>
             <li>
@@ -188,6 +186,17 @@
               <p>Av: São João, 1979 - Montes Claros - MG - Cep: 39400-000</p>
             </li>
           </ul>
+          <div class="footer-redes d-flex">
+            <a href="./">
+              <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
+            </a>
+            <a href="./">
+              <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
+            </a>
+            <a href="./">
+              <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube">
+            </a>
+          </div>
         </div>
       </div>
     </div>

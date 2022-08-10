@@ -5,6 +5,10 @@ body {
   max-width: 1320px;
 
 }
+.hiddenscroll{
+  overflow: hidden;
+}
+
 
 h1,
 h2,

@@ -4,6 +4,7 @@
 }
 .carousel-item img{
   object-fit: cover;
+ 
 }
 .carousel-control-prev{
   justify-content: start !important;
@@ -44,6 +45,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  font-weight: bold;
 }
 .destaque-titulo h1::before{
   display: block;
@@ -63,6 +65,15 @@
   background-color: gray;
   top: 24px;
   right: 0px;
+}
+.card{
+  --bs-card-border-color: none !important;
+  box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.15);
+}
+.card-text{
+  text-align: center;
+  font-weight: bold;
+
 }
 
 @media (max-width:991.98px){

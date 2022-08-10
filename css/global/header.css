@@ -1,7 +1,7 @@
 .navbar {
   position: relative;
 }
-.navbar-toggler{
+.navbar-toggler {
   padding: 0px !important;
 }
 .header {
@@ -51,13 +51,27 @@
   font-size: 1.5rem;
   cursor: pointer;
   text-transform: uppercase !important;
+  display: inline-block !important;
+}
+#desktop .nav-menu-item a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 3px;
+  background-color: #fff;
+}
+#desktop .nav-menu-item a:hover::after {
+  width: 100%;
+  transition: 0.3s;
 }
 #desktop .nav-menu-item a:hover {
   color: lightgray !important;
-
 }
+
+
+
 @media (max-width: 991.98px) {
-#desktop  .nav-menu-item a {
+  #desktop .nav-menu-item a {
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
@@ -70,59 +84,55 @@
     top: 0px;
     right: 0px;
     background-color: #1e1e1e;
-    padding-top: 40px;   
+    padding-top: 40px;
     padding-bottom: 100vh;
-
-  }  
+  }
   .navbar-nav {
     position: relative;
   }
   .btn-fechar {
     position: absolute;
     top: -35px;
-    right: 5px;  
+    right: 5px;
     z-index: 100;
   }
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     cursor: pointer;
     border: none !important;
   }
-  .nav-item{
+  .nav-item {
     border-bottom: 1px solid #fff;
   }
-  .nav-link{
+  .nav-link {
     display: block;
     color: #fff !important;
     padding-right: 100px !important;
     font-size: 1rem !important;
     padding-left: 1rem !important;
     text-transform: uppercase !important;
-    
   }
-  .nav-link:hover{
+  .nav-link:hover {
     color: lightgray !important;
   }
   /* #mobile{
     margin-bottom: 32px;
   } */
-  #mobile .nav-bg{
+  #mobile .nav-bg {
     overflow-x: auto;
     padding-bottom: 24px !important;
-
   }
-  #mobile .nav-menu-item a{
+  #mobile .nav-menu-item a {
     position: relative;
-
   }
-  #mobile .nav-menu-item img{
+  #mobile .nav-menu-item img {
     border-radius: 50% !important;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
   }
-  #mobile .nav-menu-item span{
-    display: block;   
+  #mobile .nav-menu-item span {
+    display: block;
     background-color: #1e1e1e;
     color: #fff;
     border-radius: 20px;
@@ -132,5 +142,4 @@
     font-size: 0.75rem;
     text-align: center !important;
   }
-
 }
