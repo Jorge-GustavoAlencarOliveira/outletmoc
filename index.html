@@ -11,6 +11,12 @@
 </head>
 
 <body>
+  <div class="container-fluid modal1">
+    <div class="modal-content1">
+      <img class="text-center" src="./img/WhatsApp Image 2022-08-01 at 20.55.00 (1).jpeg" id="imagemodal">
+    </div>
+    <span id="btn-close1">&times;</span>
+  </div>
   <header class="navbar navbar-expand-md py-0">
     <div class="container-fluid header">
       <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
@@ -59,15 +65,14 @@
       <li class="nav-menu-item"><a href=""><img src="./img/masculino-jeans.webp" alt=""><span>Camisas</span></a></li>
     </ul>
   </nav>
-
   <section id="carousel" class="container-fluid mt-2 mt-md-0">
     <div class='row'>
       <div id="carouselExampleIndicators" class="carousel slide col-12">
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="imagecarousel">
           <div class="carousel-item active">
             <img src="./img/1-slide-1648158550853-5478008223-397cfee653c71e076959a2a078b500381648158553-1920-1920.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="imagecarousel">
             <img src="./img/1-slide-1653688335531-8486435173-65b147549439061c976da999f28b28911653688345-1920-1920.png" class="d-block w-100" alt="...">
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -86,7 +91,7 @@
       </div>
     </div>
   </section>
-  <main class="container-fluid">
+  <main class="container-fluid pb-3 pb-md-5">
     <div class="destaque-titulo mb-md-2 mb-lg-4">
       <h1>Lançamentos</h1>
     </div>
@@ -155,29 +160,36 @@
           </div>
         </div>
       </div>
-    </div>
-    </div>
+    </div>  
   </main>
-  <footer id="footer" class="py-4 ">
+  <article class="container-fluid redes-bg">
+    <div class=" redes-sociais text-center">
+      <h1>Siga-nos nas redes sociais.</h1>
+      <ul class="d-flex justify-content-center">
+        <li><a href="./"></a><img src="./img/redes/facebook.svg" width="100" alt="facebook"></li>
+        <li><a href="./"></a><img src="./img/redes/instagram.svg" width="100" alt="instagram"</li>
+      </ul>
+    </div>
+  </article>  
+  <footer id="footer" class="pt-0 pt-md-4 ">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4 mb-md-0 mb-3 ">
           <img src="./img/logo.svg" alt="" width="200">
         </div>
-        <div class="col-md-4 mb-md-0 mb-5">
-          <h5 class='mb-4'>FORMAS DE PAGAMENTO</h5>
-          <ul class="d-flex">
-            <li><img class="me-2" src="./img/mastercard@2x.png" alt="" width="50"></li>
-            <li><img class="me-2" src="./img/visa@2x.png" alt="" width="50"></li>
-            <li><img class="me-2" src="./img/elo@2x.png" alt="" width="50"></li>
-            <li><img class="me-2" src="./img/amex@2x.png" alt="" width="50"></li>
-          </ul>
-        </div>
+        <div class="col-md-4 navegacao mb-5 mb-md-0">
+          <h1>NAVEGAÇÃO</h1>
+          <ul class="navegacao-itens">
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Quem somos</a></li>
+            <li><a href="">Localização</a></li>    
+          </ul>  
+        </div>       
         <div class="col-md-4 contato">
-          <h5 class='mb-4'>CONTATO</h5>
+          <h1 class='mb-4'>CONTATO</h1>
           <ul>
             <li>
-              <p>Whats: (38) 9. 8305-2466 / (38) 9.4438-1648</p>
+              <p>Whatsapp: (38) 9. 8305-2466 / (38) 9.4438-1648</p>
             </li>
             <li>
               <p>atendimento@outletmoc.com.br</p>
@@ -186,17 +198,6 @@
               <p>Av: São João, 1979 - Montes Claros - MG - Cep: 39400-000</p>
             </li>
           </ul>
-          <div class="footer-redes d-flex">
-            <a href="./">
-              <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
-            </a>
-            <a href="./">
-              <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
-            </a>
-            <a href="./">
-              <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube">
-            </a>
-          </div>
         </div>
       </div>
     </div>

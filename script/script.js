@@ -24,3 +24,25 @@ function showscroll (){
 
 btnhamb.addEventListener('click', hidescroll);
 btnclose.addEventListener('click', showscroll);
+
+
+const images = document.querySelectorAll('.card img');
+const modal = document.querySelector('.modal1');
+const imagemodal = document.querySelector('#imagemodal');
+const btnclose1= document.querySelector('#btn-close1');
+
+function showImage(){ 
+  const scrimage = this.getAttribute('src');
+  imagemodal.removeAttribute('src')
+  imagemodal.setAttribute('src', scrimage);
+  modal.classList.toggle('ativo'); 
+  console.log(imagemodal); 
+}
+images.forEach((event) =>{
+  event.addEventListener('click', showImage)
+});
+ function modalStatus(){
+  modal.classList.toggle('ativo')
+ }
+
+btnclose1.addEventListener('click', modalStatus)

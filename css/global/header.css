@@ -62,7 +62,7 @@
 }
 #desktop .nav-menu-item a:hover::after {
   width: 100%;
-  transition: 0.3s;
+  transition: 0.3s ease-in;
 }
 #desktop .nav-menu-item a:hover {
   color: lightgray !important;

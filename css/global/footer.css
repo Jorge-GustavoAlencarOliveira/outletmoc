@@ -1,21 +1,62 @@
-#footer{
-  background-color: #1e1e1e;
-  color: #fff;
+.redes-bg{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background-color: #000;
 }
+.redes-sociais h1{
+ color: #fff;
+ margin-bottom: 60px !important;
+}
+
+.redes-sociais ul li:first-child{
+  margin-right: 40px;
+ }
+ .redes-sociais ul li{
+  cursor: pointer;
+ }
+
 .whatsapp-icon{
   position: fixed;
   bottom: 50px;
   right: 50px;
 }
+.navegacao-itens li{
+  margin-top: 16px;
+}
+.navegacao-itens li:first-child{
+  margin-top: 24px;
+}
+.navegacao-itens li a{
+  font-size: 20px;
+  color: #000 !important;
+  cursor: pointer;
+}
 
 .contato ul{
   margin-bottom: 32px !important;
 }
+.contato p {
+  margin-top: 16px !important;
+  font-size: 20px !important;
+}
 .footer-redes{
   gap: 20px;
 }
+.footer-redes img{
+  fill: #000 ;
+}
 
 @media (max-width:576.98px){
+  .redes-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .redes-sociais img{
+    width: 50px;
+    height: 50px;
+   }  
   .whatsapp-icon{
     bottom: 25px;
     right: 25px;

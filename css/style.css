@@ -6,4 +6,5 @@
 
 /* HOME */
 
-@import "./home/destaque.css"
+@import "./home/destaque.css";
+@import "./home/modal.css"

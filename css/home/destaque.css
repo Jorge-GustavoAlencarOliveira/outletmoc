@@ -4,6 +4,7 @@
 }
 .carousel-item img{
   object-fit: cover;
+  cursor: pointer;
  
 }
 .carousel-control-prev{
@@ -69,11 +70,19 @@
 .card{
   --bs-card-border-color: none !important;
   box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.15);
+  
+}
+.card img{
+  cursor: pointer;
+}
+.card-body{
+  background-color: #000;
+
 }
 .card-text{
   text-align: center;
   font-weight: bold;
-
+  color: #fff;
 }
 
 @media (max-width:991.98px){
@@ -93,6 +102,11 @@
   }
   .carousel-indicators {
     margin-top: 0px !important;
-  
+  }
+}
+@media (max-width: 576.96px){
+  .card-text{
+    font-size: 16px;
   } 
+  
 }
